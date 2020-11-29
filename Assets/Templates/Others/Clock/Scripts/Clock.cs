@@ -42,6 +42,8 @@ void Start()
 //-----------------------------------------------------------------------------------------------------------------------------------------
 void Update() 
 {
+    transform.Rotate(0, 360 * Time.deltaTime, 0);
+
     //-- calculate time
     msecs += Time.deltaTime * clockSpeed;
     if(msecs >= 1.0f)
