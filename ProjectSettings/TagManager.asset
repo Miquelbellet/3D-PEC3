@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - MainLight
+  - Enemie
+  - LifeBox
+  - AmmoBox
   layers:
   - Default
   - TransparentFX
